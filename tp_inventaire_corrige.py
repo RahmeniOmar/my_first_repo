@@ -1,3 +1,5 @@
+```python
+
 def calculer\_valeur\_stock(inventaire, prix\_unitaires):
 
 &#x20;   total = 0
@@ -10,19 +12,9 @@ def calculer\_valeur\_stock(inventaire, prix\_unitaires):
 
 &#x20;       produit = inventaire\[indices]
 
-
-
-&#x20;       # Fix 2: .lower() to match dictionary keys
-
 &#x20;       prix = prix\_unitaires\[produit.lower()]
 
-
-
 &#x20;       total += prix
-
-
-
-&#x20;       # Fix 1: increment indices to avoid infinite loop
 
 &#x20;       indices += 1
 
@@ -34,13 +26,7 @@ def calculer\_valeur\_stock(inventaire, prix\_unitaires):
 
 def main():
 
-&#x20;   # Liste des produits en rayon
-
 &#x20;   mon\_stock = \["Console", "Manette", "Jeu"]
-
-
-
-&#x20;   # Catalogue des prix - all keys in lowercase
 
 &#x20;   catalogue = {
 
@@ -51,8 +37,6 @@ def main():
 &#x20;       "jeu": 60
 
 &#x20;   }
-
-
 
 &#x20;   print("Analyse du stock en cours...")
 
@@ -65,4 +49,8 @@ def main():
 if \_\_name\_\_ == "\_\_main\_\_":
 
 &#x20;   main()
+
+```
+
+
 
