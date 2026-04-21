@@ -1,2 +1,2 @@
-# my\_first\_repo ;
+# my\_first\_repo ":)"
 
